@@ -13,7 +13,7 @@ export default function FlavorSelector({ value, onChange, step }) {
             layout="tile"
             emoji={s.emoji}
             name={s.name}
-            price={s.extra > 0 ? `+${formatPrecio(s.extra)}` : 'incluido'}
+            price={s.extra > 0 ? `+${formatPrecio(s.extra)}` : null}
             active={value === s.id}
             onClick={() => onChange(s.id)}
           />
