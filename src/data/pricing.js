@@ -42,12 +42,13 @@ export const RELLENOS = [
   { id: 'ganache', emoji: '🍫', name: 'Ganache', extra: 2000 },
   { id: 'pastelera', emoji: '🤍', name: 'Crema pastelera', extra: 0 },
   { id: 'chantilly', emoji: '🍨', name: 'Chantilly', extra: 0 },
+  { id: 'frutos rojos', emoji: '🫐', name: 'Frutos Rojos', extra: 0 },
 ]
 
 // ── Extras opcionales (todos tipo check on/off) ───────────────
 export const EXTRAS = [
   { id: 'topper', emoji: '👑', name: 'Topper personalizado', desc: 'Nombre o figura en la cima', precio: 5000 },
-  { id: 'vintage', emoji: '🎀', name: 'Diseño vintage', desc: 'Estilo lambeth con boquillas', precio: 8000 },
+  { id: 'vintage', emoji: '🎀', name: 'Diseño coquette', desc: 'Estilo lambeth con boquillas', precio: 8000 },
   { id: 'delivery', emoji: '🚚', name: 'Envío a domicilio', desc: 'Entrega coordinada', precio: 4000 },
 ]
 
