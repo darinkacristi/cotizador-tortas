@@ -20,8 +20,9 @@ export const MAX_RELLENOS = 2
 // porciones: rango de personas · medida: diámetro en cm (puede ir vacío)
 export const TAMANOS = [
   { id: 'pequena', name: 'Pequeña', porciones: '8-10', medida: '18 cm', precio: 18000 },
+  { id: 'mediana', name: 'Mediana', porciones: '15-20', medida: '22 cm', precio: 28000 },
   { id: 'grande', name: 'Grande', porciones: '25-30', medida: '26 cm', precio: 42000 },
-  { id: 'xl', name: 'Extra grande', porciones: '35-40', medida: '', precio: 60000 },
+  { id: 'xl', name: 'Extra grande', porciones: '35-40', medida: '28 cm', precio: 60000 },
 ]
 
 // ── Sabores del bizcocho ──────────────────────────────────────
