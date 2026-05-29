@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #fbf6f2;
+  }
+
+  body {
+    @apply font-sans text-ink antialiased;
+    min-height: 100vh;
+  }
+
+  /* Fondo atmosférico: mezcla pastel de lavanda, blush y un toque cálido */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 55% 40% at 12% 10%, rgba(183, 154, 212, 0.22) 0%, transparent 60%),
+      radial-gradient(ellipse 45% 45% at 88% 18%, rgba(246, 226, 231, 0.55) 0%, transparent 60%),
+      radial-gradient(ellipse 60% 50% at 80% 95%, rgba(245, 166, 35, 0.08) 0%, transparent 60%);
+    pointer-events: none;
+    z-index: 0;
+  }
+}
+
+@layer components {
+  /* Superficie de tarjeta reutilizable */
+  .card-surface {
+    @apply rounded-3xl border border-line bg-white/70 shadow-card backdrop-blur-md transition-colors duration-200;
+  }
+  .card-surface:hover {
+    border-color: rgba(107, 63, 148, 0.3);
+  }
+
+  /* Contenedor centrado con ancho máximo */
+  .container-app {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-6;
+  }
+}
+
+@layer utilities {
+  /* Oculta la barra de scroll pero mantiene el desplazamiento */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
