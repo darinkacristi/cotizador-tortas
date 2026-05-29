@@ -34,9 +34,11 @@ function FillingTile({ relleno, active, disabled, onClick }) {
         </span>
       </span>
 
-      <span className={`text-xs font-medium ${active ? 'text-purple-dark' : 'text-muted'}`}>
-        {relleno.extra > 0 ? `+${formatPrecio(relleno.extra)}` : 'incluido'}
-      </span>
+      {relleno.extra > 0 && (
+        <span className={`text-xs font-medium ${active ? 'text-purple-dark' : 'text-muted'}`}>
+          +{formatPrecio(relleno.extra)}
+        </span>
+      )}
     </button>
   )
 }
