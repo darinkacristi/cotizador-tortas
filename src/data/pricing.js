@@ -19,7 +19,7 @@ export const MAX_RELLENOS = 2
 // ── Tamaños de torta (precio base) ────────────────────────────
 // porciones: rango de personas · medida: diámetro en cm (puede ir vacío)
 export const TAMANOS = [
-  { id: 'pequena', name: 'Pequeña', porciones: '8-10', medida: '18 cm', precio: 36000 },
+  { id: 'pequena', name: 'Pequeña', porciones: '8-10', medida: '18 cm', precio: 26000 },
   { id: 'mediana', name: 'Mediana', porciones: '15-20', medida: '22 cm', precio: 30000 },
   { id: 'grande', name: 'Grande', porciones: '25-30', medida: '26 cm', precio: 42000 },
   { id: 'xl', name: 'Extra grande', porciones: '35-40', medida: '28 cm', precio: 60000 },
