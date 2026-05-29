@@ -43,6 +43,10 @@ export const RELLENOS = [
   { id: 'pastelera', emoji: '🤍', name: 'Crema pastelera', extra: 0 },
   { id: 'chantilly', emoji: '🍨', name: 'Chantilly', extra: 0 },
   { id: 'frutos rojos', emoji: '🫐', name: 'Frutos Rojos', extra: 0 },
+  { id: 'maracuya', emoji: '🥭', name: 'Maracuyá', extra: 3000 },
+  { id: 'tiramisu', emoji: '☕', name: 'Tiramisú', extra: 4000 },
+  { id: 'oreo', emoji: '🖤', name: 'Oreo', extra: 3500 },
+  { id: 'cheesecake', emoji: '🧀', name: 'Cheesecake', extra: 4500 },
 ]
 
 // ── Extras opcionales (todos tipo check on/off) ───────────────
